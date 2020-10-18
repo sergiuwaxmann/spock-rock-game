@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spock Rock Game</title>
+    <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=www.sergiuwaxmann.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Rock Paper Scissors Lizard Spock</h1>
+        </div>
+        <!-- Player Container -->
+        <div id="player" class="player-container">
+            <h2>You -
+                <span id="playerScore">0</span>
+                <span id="playerChoice" class="choice"> --- Choice</span>
+            </h2>
+            <i id="playerRock" class="far fa-hand-rock" title="Rock"></i>
+            <i id="playerPaper" class="far fa-hand-paper" title="Paper"></i>
+            <i id="playerScissors" class="far fa-hand-scissors" title="Scissors"></i>
+            <i id="playerLizard" class="far fa-hand-lizard" title="Lizard"></i>
+            <i id="playerSpock" class="far fa-hand-spock" title="Spock"></i>
+        </div>
+        <!-- Computer Container -->
+        <div id="computer" class="player-container">
+            <h2>You -
+                <span id="computerrScore">0</span>
+                <span id="computerChoice" class="choice"> --- Choice</span>
+            </h2>
+            <i id="computerRock" class="far fa-hand-rock" title="Rock"></i>
+            <i id="computerPaper" class="far fa-hand-paper" title="Paper"></i>
+            <i id="computerScissors" class="far fa-hand-scissors" title="Scissors"></i>
+            <i id="computerLizard" class="far fa-hand-lizard" title="Lizard"></i>
+            <i id="computerSpock" class="far fa-hand-spock" title="Spock"></i>
+        </div>
+        <!-- Reset Icon -->
+        <i class="fas fa-sync-alt reset-icon" title="Reset"></i>
+        <!-- Result Text -->
+        <div class="result-container">
+            <h3 id="resultText" class="result-text">You Won!</h3>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
