@@ -19,8 +19,8 @@
         <!-- Player Container -->
         <div id="player" class="player-container">
             <h2>You -
-                <span id="playerScore">0</span>
-                <span id="playerChoice" class="choice"> --- Choice</span>
+                <span id="playerScore"></span>
+                <span id="playerChoice" class="choice"></span>
             </h2>
             <i id="playerRock" class="far fa-hand-rock" title="Rock" onclick="select('rock')"></i>
             <i id="playerPaper" class="far fa-hand-paper" title="Paper" onclick="select('paper')"></i>
@@ -31,8 +31,8 @@
         <!-- Computer Container -->
         <div id="computer" class="player-container">
             <h2>Computer -
-                <span id="computerrScore">0</span>
-                <span id="computerChoice" class="choice"> --- Choice</span>
+                <span id="computerScore"></span>
+                <span id="computerChoice" class="choice"></span>
             </h2>
             <i id="computerRock" class="far fa-hand-rock" title="Rock"></i>
             <i id="computerPaper" class="far fa-hand-paper" title="Paper"></i>
@@ -41,10 +41,10 @@
             <i id="computerSpock" class="far fa-hand-spock" title="Spock"></i>
         </div>
         <!-- Reset Icon -->
-        <i class="fas fa-sync-alt reset-icon" title="Reset"></i>
+        <i class="fas fa-sync-alt reset-icon" title="Reset" onclick="resetAll()"></i>
         <!-- Result Text -->
         <div class="result-container">
-            <h3 id="resultText" class="result-text">You Won!</h3>
+            <h3 id="resultText" class="result-text"></h3>
         </div>
     </div>
     <!-- Script -->
